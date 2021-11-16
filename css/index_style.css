@@ -1,0 +1,35 @@
+body
+{
+    font-family: 'segoe ui light';
+}
+.text-mine
+{
+    color: #f5ba4b  !important;
+}
+#about
+{
+    background-image: url(../images/light_dot.jpg);
+}
+#about img
+{
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+.heading 
+{
+    font-family: 'Open Sans',sans-serif;
+}
+.heading h2
+{
+    font-size: 5rem;
+    color: #f1f1f1;
+}
+.heading h3
+{
+    font-size: 2.5rem;
+}
+.heading h3 , .heading h2
+{
+    
+    font-weight: 900;
+
+}

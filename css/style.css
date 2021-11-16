@@ -1,0 +1,134 @@
+
+.bb{
+   color:  #fed136 !important ;
+   font-size: 2rem;
+   font-family: 'Kaushan Script', cursive;
+
+
+}
+.bm{
+    background-image: url('img/header-bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.text{
+    position: absolute;
+    font-family: 'Montserrat';
+    top: 30rem;
+    left: 33rem;
+    text-align: center;
+    color: #ffffff;
+}
+.btn-warning{
+font-size: 2rem !important;
+font-family: 'Montserrat Subrayada', sans-serif;
+border: none;
+padding: 1.25rem;
+}
+.mm
+{
+    overflow: auto;
+    position: relative;
+}
+.lay{
+    background-color: rgba(0, 33, 71, 0.7);
+    position: absolute;
+    top: 0%;
+    bottom: 100%;
+    left: 4%;
+    right: 4%;
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition-property: opacity ,bottom;
+    transition-duration: 1s;
+    transition-delay: 1;
+
+}
+.mm:hover .lay
+{
+    opacity: 1;
+    bottom: 20%;
+}
+.lay2{
+    background-color: rgba(255, 255, 255, 0.57);
+    position: absolute;
+    bottom: 15%;
+    left: 8;
+    right: 8;
+    opacity: 1;
+    transition-property: opacity ,bottom;
+    transition-duration: 1s;
+    transition-delay: 3;
+       
+
+    
+
+}
+.mm:hover .lay2{
+    opacity: 0;
+    bottom: 0;
+
+}
+.item-nn
+{
+    position: relative;
+    color: white;
+}
+.overlayt
+{
+    text-align: center;
+    background-color: rgba(0, 33, 71, 1);
+    position: absolute;
+    top: 0;
+    left: 4%;
+    right: 4%;
+    bottom: 0;
+    transition: background-color 1s;
+}
+.item-nn:hover .overlayt
+{
+    background-color: rgba(0, 33, 71, 0.5);
+}
+footer{
+    background-image: url('img/map.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.oo{
+    font-size: 3rem;
+}
+
+
+.ab{
+    position: relative;
+}
+.lay-last h3
+{
+    font-size: 10rem;
+    color: yellow;
+    font-weight: 500;
+}
+
+.lay-last{
+    background-color: rgba(133, 122, 235, 0.0);
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    right: 4%;
+    bottom: 28%;
+    opacity: 0;
+    transition: 1s background-color , 1s opacity;
+}
+.ab:hover .lay-last
+{
+    background-color: rgba(133, 122, 235, 0.5);
+
+    opacity: 1;
+}
